@@ -32,11 +32,11 @@ int sumUpToN(int n)
     // Using a loop calculate the sum
     // 1 + 2 + 3 + ... + n
     int sum = 0;
-    for(int x = 1 ; x<=n ; x++ ){
-       sum += x ; 
+    for(int i = 1 ; i<=n ; i++ ){
+       sum += i ; 
     }
 
-    return 0;
+    return sum;
 }
 
 
@@ -114,7 +114,7 @@ public:
     // Grade: <grade>
     void printInfo(){
         cout << "Name "<< name << endl;
-        cout << "grade "<< grade << endl;
+        cout << "Grade "<< grade << endl;
         
     }
 
